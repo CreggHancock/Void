@@ -47,12 +47,15 @@ func _physics_process(delta):
 	
 	apply_floor_snap()
 	move_and_slide()
-	animate(delta)
+	animate()
 
-func animate(delta):
+func animate():
 	if speed == run_speed && (velocity.x != 0 || velocity.z != 0):
 			animator.speed_scale = 1
 	elif velocity.x != 0 || velocity.z != 0:
 			animator.speed_scale = .5
 	else:
 		animator.speed_scale = 0
+		
+func pickup():
+	scale += Vector3(.1, .1, .1)
