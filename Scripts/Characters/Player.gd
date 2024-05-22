@@ -58,4 +58,4 @@ func animate():
 		animator.speed_scale = 0
 		
 func pickup():
-	scale += Vector3(.1, .1, .1)
+	scale += Vector3(.01, .01, .01)

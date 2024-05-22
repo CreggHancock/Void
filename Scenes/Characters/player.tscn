@@ -50,6 +50,8 @@ _data = {
 collision_layer = 3
 collision_mask = 3
 script = ExtResource("1_hn6di")
+walk_speed = 1.0
+run_speed = 3.0
 
 [node name="Mesh" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0730165, 0)
