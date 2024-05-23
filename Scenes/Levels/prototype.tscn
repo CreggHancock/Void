@@ -14,11 +14,16 @@ panorama = ExtResource("1_rrvcb")
 sky_material = SubResource("PanoramaSkyMaterial_6c4vd")
 
 [sub_resource type="Environment" id="Environment_ctwiv"]
-background_mode = 2
+background_mode = 1
+background_color = Color(0.421111, 0.64707, 0.902344, 1)
 sky = SubResource("Sky_5ngqa")
-ambient_light_energy = 0.1
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.25
 tonemap_mode = 2
-glow_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_read_sky_light = false
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ajchh"]
 albedo_color = Color(0.65625, 0.65625, 0.65625, 1)
@@ -115,6 +120,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8244, 0, -7.13697)
 mesh = ExtResource("5_0txrq")
 
 [node name="StaticBody3D2" type="StaticBody3D" parent="MeshInstance3D"]
+collision_layer = 17
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D2"]
 shape = SubResource("ConcavePolygonShape3D_pp0ub")
@@ -145,5 +151,5 @@ light_energy = 2.0
 light_indirect_energy = 2.0
 
 [node name="Grandma" parent="." node_paths=PackedStringArray("cat") instance=ExtResource("6_8l2du")]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0.0107404, 0.320901)
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0.0107404, 2.3209)
 cat = NodePath("../Player")

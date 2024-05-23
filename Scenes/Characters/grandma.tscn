@@ -12,6 +12,7 @@ script = ExtResource("1_wyop8")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 1.21143, 0)
+gi_mode = 2
 mesh = ExtResource("1_0tb32")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
@@ -21,5 +22,9 @@ shape = SubResource("CapsuleShape3D_6isyd")
 [node name="StateTimer" type="Timer" parent="."]
 wait_time = 2.0
 autostart = true
+
+[node name="RayCast3D" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.92336, 0)
+collision_mask = 16
 
 [connection signal="timeout" from="StateTimer" to="." method="_on_state_timer_timeout"]
