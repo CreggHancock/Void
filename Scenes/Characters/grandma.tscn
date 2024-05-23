@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpan17elb1q5w"]
+
+[ext_resource type="ArrayMesh" uid="uid://btmb7l5jbn8k5" path="res://Assets/Grandma/Owner1.obj" id="1_0tb32"]
+[ext_resource type="Script" path="res://Scenes/Characters/grandma.gd" id="1_wyop8"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6isyd"]
+radius = 0.379749
+height = 2.22519
+
+[node name="Grandma" type="CharacterBody3D"]
+script = ExtResource("1_wyop8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 1.21143, 0)
+mesh = ExtResource("1_0tb32")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0203574, 1.10295, 0)
+shape = SubResource("CapsuleShape3D_6isyd")
+
+[node name="StateTimer" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+
+[connection signal="timeout" from="StateTimer" to="." method="_on_state_timer_timeout"]

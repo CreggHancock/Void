@@ -1,10 +1,11 @@
-[gd_scene load_steps=15 format=3 uid="uid://coue2qehpn4fr"]
+[gd_scene load_steps=16 format=3 uid="uid://coue2qehpn4fr"]
 
 [ext_resource type="Texture2D" uid="uid://b8q44ipg8a3cq" path="res://Assets/Textures/Black.png" id="1_hwes2"]
 [ext_resource type="Texture2D" uid="uid://doyodkg1ds7td" path="res://Assets/Textures/Sky.png" id="1_rrvcb"]
 [ext_resource type="PackedScene" uid="uid://cr2ersq7g6q6f" path="res://Scenes/Characters/player.tscn" id="2_1g73n"]
 [ext_resource type="ArrayMesh" uid="uid://c7baa8euvegjl" path="res://Assets/House/CatAmariHouse.obj" id="5_0txrq"]
 [ext_resource type="PackedScene" uid="uid://bkemyttcgnwrc" path="res://Scenes/Pickup.tscn" id="6_4p53y"]
+[ext_resource type="PackedScene" uid="uid://bpan17elb1q5w" path="res://Scenes/Characters/grandma.tscn" id="6_8l2du"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6c4vd"]
 panorama = ExtResource("1_rrvcb")
@@ -74,39 +75,40 @@ jump_strength = 8.0
 gravity = 40.0
 
 [node name="Pickup" parent="." instance=ExtResource("6_4p53y")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -2.2322, 0, 0)
 
 [node name="Pickup2" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.56064, 0, 0)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.56064, 0, 0)
 
 [node name="Pickup3" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.20882, 0, 1.05394)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 1.20882, 0, 1.05394)
 
 [node name="Pickup4" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2322, 0, 0.994041)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -2.2322, 0, 0.994041)
 
 [node name="Pickup9" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.63469, 0, -1.02842)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4.63469, 0, -1.02842)
 
 [node name="Pickup10" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.841856, 0, -1.02842)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.841856, 0, -1.02842)
 
 [node name="Pickup11" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.19367, 0, 0.025521)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -1.19367, 0, 0.025521)
 
 [node name="Pickup12" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.63469, 0, -0.034381)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4.63469, 0, -0.034381)
 
 [node name="Pickup5" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.884376, 0, 1.84648)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.884376, 0, 1.84648)
 
 [node name="Pickup6" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.90846, 0, 1.84648)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 2.90846, 0, 1.84648)
 
 [node name="Pickup7" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.55664, 0, 2.90042)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 2.55664, 0, 2.90042)
 
 [node name="Pickup8" parent="." instance=ExtResource("6_4p53y")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.884376, 0, 2.84052)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -0.884376, 0, 2.84052)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8244, 0, -7.13697)
@@ -141,3 +143,7 @@ light_indirect_energy = 2.0
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.86691, 1.94016, -4.04555)
 light_energy = 2.0
 light_indirect_energy = 2.0
+
+[node name="Grandma" parent="." node_paths=PackedStringArray("cat") instance=ExtResource("6_8l2du")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0.0107404, 0.320901)
+cat = NodePath("../Player")
