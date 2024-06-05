@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dn11anf0jwqg1"
+path="res://.godot/imported/HandMirror.obj-51e8ce1d9f691460f97f5ae7149cb1ab.mesh"
+
+[deps]
+
+files=["res://.godot/imported/HandMirror.obj-51e8ce1d9f691460f97f5ae7149cb1ab.mesh"]
+
+source_file="res://Assets/Pickups/HandMirror.obj"
+dest_files=["res://.godot/imported/HandMirror.obj-51e8ce1d9f691460f97f5ae7149cb1ab.mesh", "res://.godot/imported/HandMirror.obj-51e8ce1d9f691460f97f5ae7149cb1ab.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

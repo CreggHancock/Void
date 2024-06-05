@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://rpnq3otq3itl"
+path="res://.godot/imported/Candelabra.obj-edd3febd535d5a8f285b0ac7ee984f21.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Candelabra.obj-edd3febd535d5a8f285b0ac7ee984f21.mesh"]
+
+source_file="res://Assets/Pickups/Candelabra.obj"
+dest_files=["res://.godot/imported/Candelabra.obj-edd3febd535d5a8f285b0ac7ee984f21.mesh", "res://.godot/imported/Candelabra.obj-edd3febd535d5a8f285b0ac7ee984f21.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

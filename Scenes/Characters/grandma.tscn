@@ -1,22 +1,22 @@
 [gd_scene load_steps=4 format=3 uid="uid://bpan17elb1q5w"]
 
-[ext_resource type="ArrayMesh" uid="uid://btmb7l5jbn8k5" path="res://Assets/Grandma/Owner1.obj" id="1_0tb32"]
 [ext_resource type="Script" path="res://Scenes/Characters/grandma.gd" id="1_wyop8"]
+[ext_resource type="ArrayMesh" uid="uid://cn3roe6evhuya" path="res://Assets/Grandma/OwnerAttempt3.obj" id="2_5ufu3"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6isyd"]
 radius = 0.379749
-height = 2.22519
+height = 3.3241
 
 [node name="Grandma" type="CharacterBody3D"]
 script = ExtResource("1_wyop8")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 1.21143, 0)
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 3.15304, 0)
 gi_mode = 2
-mesh = ExtResource("1_0tb32")
+mesh = ExtResource("2_5ufu3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0203574, 1.10295, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0203574, 1.6643, 0)
 shape = SubResource("CapsuleShape3D_6isyd")
 
 [node name="StateTimer" type="Timer" parent="."]

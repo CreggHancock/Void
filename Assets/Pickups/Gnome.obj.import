@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dwktlv7nrnk77"
+path="res://.godot/imported/Gnome.obj-9bd434cd44096ae1f836251698f70bd4.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Gnome.obj-9bd434cd44096ae1f836251698f70bd4.mesh"]
+
+source_file="res://Assets/Pickups/Gnome.obj"
+dest_files=["res://.godot/imported/Gnome.obj-9bd434cd44096ae1f836251698f70bd4.mesh", "res://.godot/imported/Gnome.obj-9bd434cd44096ae1f836251698f70bd4.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

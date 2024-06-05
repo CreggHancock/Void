@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bvtu6rq62et0a"
+path="res://.godot/imported/Cellphone.obj-e5fe2d5ee5a0b390bf1ddd55a0680d4c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cellphone.obj-e5fe2d5ee5a0b390bf1ddd55a0680d4c.mesh"]
+
+source_file="res://Assets/Pickups/Cellphone.obj"
+dest_files=["res://.godot/imported/Cellphone.obj-e5fe2d5ee5a0b390bf1ddd55a0680d4c.mesh", "res://.godot/imported/Cellphone.obj-e5fe2d5ee5a0b390bf1ddd55a0680d4c.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://igcxe6bi3gg3"
+path="res://.godot/imported/RussianNestingDoll.obj-b3aa7568299ee9b0e4e66adcb7772450.mesh"
+
+[deps]
+
+files=["res://.godot/imported/RussianNestingDoll.obj-b3aa7568299ee9b0e4e66adcb7772450.mesh"]
+
+source_file="res://Assets/Pickups/RussianNestingDoll.obj"
+dest_files=["res://.godot/imported/RussianNestingDoll.obj-b3aa7568299ee9b0e4e66adcb7772450.mesh", "res://.godot/imported/RussianNestingDoll.obj-b3aa7568299ee9b0e4e66adcb7772450.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

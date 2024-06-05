@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://lacirfotuilj"
+path="res://.godot/imported/Medal.obj-2a78ff86f10b766b872d7de66a5c6374.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Medal.obj-2a78ff86f10b766b872d7de66a5c6374.mesh"]
+
+source_file="res://Assets/Pickups/Medal.obj"
+dest_files=["res://.godot/imported/Medal.obj-2a78ff86f10b766b872d7de66a5c6374.mesh", "res://.godot/imported/Medal.obj-2a78ff86f10b766b872d7de66a5c6374.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

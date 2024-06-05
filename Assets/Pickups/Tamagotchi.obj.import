@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bjsxrp1q6xoys"
+path="res://.godot/imported/Tamagotchi.obj-df1cdb1af27e2bdee9b8c7cb61679bcf.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Tamagotchi.obj-df1cdb1af27e2bdee9b8c7cb61679bcf.mesh"]
+
+source_file="res://Assets/Pickups/Tamagotchi.obj"
+dest_files=["res://.godot/imported/Tamagotchi.obj-df1cdb1af27e2bdee9b8c7cb61679bcf.mesh", "res://.godot/imported/Tamagotchi.obj-df1cdb1af27e2bdee9b8c7cb61679bcf.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

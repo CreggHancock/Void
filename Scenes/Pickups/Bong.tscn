@@ -1,0 +1,36 @@
+[gd_scene load_steps=6 format=3 uid="uid://dwcly80ds10r5"]
+
+[ext_resource type="Script" path="res://Scripts/Pickup.gd" id="1_oftng"]
+[ext_resource type="ArrayMesh" uid="uid://b3vgpgrif8prv" path="res://Assets/Pickups/Bong.obj" id="2_147jc"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_evx5m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kfng8"]
+size = Vector3(0.248169, 0.320923, 0.233124)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xf2f0"]
+size = Vector3(0.643066, 0.437271, 0.521607)
+
+[node name="Bong" type="Node3D"]
+script = ExtResource("1_oftng")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0.208851, 0)
+mesh = ExtResource("2_147jc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+physics_material_override = SubResource("PhysicsMaterial_evx5m")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0767212, 0.00457808, -0.0641632)
+shape = SubResource("BoxShape3D_kfng8")
+
+[node name="Area3D" type="Area3D" parent="."]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.118408, 0.0212021, -0.126526)
+shape = SubResource("BoxShape3D_xf2f0")
+
+[connection signal="body_entered" from="Area3D" to="." method="_on_area_3d_body_entered"]

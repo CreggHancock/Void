@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dbn8u7hm6xqt0"
+path="res://.godot/imported/YellowYarn.obj-b5cea23a12f3a5352dbb9c9c98a57620.mesh"
+
+[deps]
+
+files=["res://.godot/imported/YellowYarn.obj-b5cea23a12f3a5352dbb9c9c98a57620.mesh"]
+
+source_file="res://Assets/Pickups/YellowYarn.obj"
+dest_files=["res://.godot/imported/YellowYarn.obj-b5cea23a12f3a5352dbb9c9c98a57620.mesh", "res://.godot/imported/YellowYarn.obj-b5cea23a12f3a5352dbb9c9c98a57620.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

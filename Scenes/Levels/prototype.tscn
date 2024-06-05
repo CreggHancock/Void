@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://doyodkg1ds7td" path="res://Assets/Textures/Sky.png" id="1_rrvcb"]
 [ext_resource type="PackedScene" uid="uid://cr2ersq7g6q6f" path="res://Scenes/Characters/player.tscn" id="2_1g73n"]
 [ext_resource type="ArrayMesh" uid="uid://c7baa8euvegjl" path="res://Assets/House/CatAmariHouse.obj" id="5_0txrq"]
-[ext_resource type="PackedScene" uid="uid://bkemyttcgnwrc" path="res://Scenes/Pickup.tscn" id="6_4p53y"]
+[ext_resource type="PackedScene" uid="uid://bkemyttcgnwrc" path="res://Scenes/Pickups/Pickup.tscn" id="6_4p53y"]
 [ext_resource type="PackedScene" uid="uid://bpan17elb1q5w" path="res://Scenes/Characters/grandma.tscn" id="6_8l2du"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_6c4vd"]

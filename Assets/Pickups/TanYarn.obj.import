@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ywaoviv2ktew"
+path="res://.godot/imported/TanYarn.obj-e224d237d7532cbd053a5b33dd2acac7.mesh"
+
+[deps]
+
+files=["res://.godot/imported/TanYarn.obj-e224d237d7532cbd053a5b33dd2acac7.mesh"]
+
+source_file="res://Assets/Pickups/TanYarn.obj"
+dest_files=["res://.godot/imported/TanYarn.obj-e224d237d7532cbd053a5b33dd2acac7.mesh", "res://.godot/imported/TanYarn.obj-e224d237d7532cbd053a5b33dd2acac7.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

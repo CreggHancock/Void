@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://ft21phwkfq6q"
+path="res://.godot/imported/StressSqueezeToy.obj-52f2b9e4459d73338041ce1205416c66.mesh"
+
+[deps]
+
+files=["res://.godot/imported/StressSqueezeToy.obj-52f2b9e4459d73338041ce1205416c66.mesh"]
+
+source_file="res://Assets/Pickups/StressSqueezeToy.obj"
+dest_files=["res://.godot/imported/StressSqueezeToy.obj-52f2b9e4459d73338041ce1205416c66.mesh", "res://.godot/imported/StressSqueezeToy.obj-52f2b9e4459d73338041ce1205416c66.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

@@ -1,9 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://bkemyttcgnwrc"]
+[gd_scene load_steps=6 format=3 uid="uid://5vnjri1t0g7f"]
 
-[ext_resource type="Script" path="res://Scripts/Pickup.gd" id="1_i2mlm"]
-
-[sub_resource type="BoxMesh" id="BoxMesh_epija"]
-size = Vector3(0.2, 0.2, 0.2)
+[ext_resource type="Script" path="res://Scripts/Pickup.gd" id="1_n1kxf"]
+[ext_resource type="ArrayMesh" uid="uid://dwktlv7nrnk77" path="res://Assets/Pickups/Gnome.obj" id="2_iqfx1"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_evx5m"]
 
@@ -13,13 +11,12 @@ size = Vector3(0.248169, 0.320923, 0.233124)
 [sub_resource type="BoxShape3D" id="BoxShape3D_xf2f0"]
 size = Vector3(0.643066, 0.437271, 0.521607)
 
-[node name="Pickup" type="Node3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2322, 0, 0)
-script = ExtResource("1_i2mlm")
+[node name="Gnome" type="Node3D"]
+script = ExtResource("1_n1kxf")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0960028, 0)
-mesh = SubResource("BoxMesh_epija")
+transform = Transform3D(0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0.210408, 0)
+mesh = ExtResource("2_iqfx1")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 physics_material_override = SubResource("PhysicsMaterial_evx5m")
